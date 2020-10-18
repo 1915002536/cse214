@@ -5,5 +5,5 @@ CSE 214 Data Structure Laboratory
 
 
 # [Problem Set 1](https://github.com/1915002536/cse214/tree/main/Problem%20Set%201%20-%20Array)
-<ul> Array Declare, Initialize, Access, Input, Output </ul>
++ Array Declare, Initialize, Access, Input, Output.
 
