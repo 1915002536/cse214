@@ -8,5 +8,4 @@ CSE 214 Data Structure Laboratory
 + Array Declare, Initialize, Access, Input, Output.
 
 # [Problem Set 2](https://github.com/1915002536/cse214/tree/main/Problem%20Set%202%20-%20Array)
-+ Array Declare, Initialize, Access, Input, Output.
-
++ Array Insert, Update, Search, Delete
