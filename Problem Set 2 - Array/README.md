@@ -1,9 +1,9 @@
-# Variable Decleration
+## Variable Decleration
 int i, j;
 int X; // Where X is Value
 int K; // Where K is Position or Index
 int size = 10, tag = 0;
-# Array Decleration or Initialization
+## Array Decleration or Initialization
 int array[100] = {1, 2, 3, 4, 5, 6, 7,8, 9, 10};
 Print The Array Elements
 /*for ( initialize ; condition; increment ) {
@@ -26,12 +26,12 @@ for (i=size; i>=K; i--)
 size++;
 
 a[5] = X;
-# Update Index with Another Value
+## Update Index with Another Value
 for (i=0; i==K; i++)
         a[i] = a[i - 1];
 
 a[5] = X;
-# Update Index with Another Value in a Correct Position or Index
+## Update Index with Another Value in a Correct Position or Index
 //Insert Position
 scanf("%d", &K);
 
@@ -50,17 +50,17 @@ for (i=0; i<size; i++){
       if(a[i]==X)
       num++;
     }
-# Search a Value in Array and if Found Print -1
+## Search a Value in Array and if Found Print -1
 if(num!=1)
    printf("-1");
-# Delete a Value in Array
+## Delete a Value in Array
 //Insert Position
 scanf("%d", &K);
 
 for (i=K-1; i<size; i++)
        a[i] = a[i+1];
 size--;
-# Only Delete the First Occurrence of The Value
+## Only Delete the First Occurrence of The Value
 //Insert Value
     scanf("%d",&X);
 
@@ -83,7 +83,7 @@ if(num!=1){
         for(i=0; i<size; i++)
             printf("%d ",a[i]);
     }
-# Delete All the Occurrence of The Value
+## Delete All the Occurrence of The Value
 //Insert Value
 scanf("%d",&X);
 
