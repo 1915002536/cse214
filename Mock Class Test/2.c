@@ -1,7 +1,7 @@
  /*  Mock Class Test Examination
      Summer 2020
      Shofiqul Islam
-     ID.1915002536
+     ID-1915002536
      CSE214 Data Structure Laboratory
      20-10-2020
 */
