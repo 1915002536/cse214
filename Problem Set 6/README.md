@@ -51,5 +51,27 @@
             printf("%d ",temp->value);
             temp = temp->next;
         }
+    }   
+    
+# Problem 4
+## Using Dynamic Memory Allocation
+    a = (Node *) malloc(sizeof(Node));
+    b = (Node *) malloc(sizeof(Node));
+    c = (Node *) malloc(sizeof(Node));
+## Creating Function
+        void print_list(Node *temp)
+    {
+        if(temp==NULL)
+        {
+            printf("Empty List\n");
+            return;
+        }
+        while(temp!=NULL)
+        {
+            printf("%d ",temp->value);
+            temp = temp->next;
+        }
+        printf("\n");
     }
+
 
