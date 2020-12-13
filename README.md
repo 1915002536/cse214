@@ -18,3 +18,14 @@ Linked List Basic Operations [Single way (Singly) Linked List]
 + Access
 + Traverse
 + Output
+
+# [Problem Set 7]
+Linked List Basic Operations [Single way (Singly) Linked List]
++ Create
++ Empty
++ Size
++ Front
++ Back 
++ Search
++ Reverse
++ Merge
