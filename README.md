@@ -31,6 +31,17 @@ Linked List Basic Operations [Single way (Singly) Linked List]
 + Merge
 
 # [Problem Set 8](https://github.com/1915002536/cse214/tree/main/Problem%20Set%208)
+Linked List Delete (Pop) Operations [Single way (Singly) Linked List]
++ Delete Back
++ Delete Front
++ Delete Value
++ Delete At
++ Delete All/Clear
 
-
-# [Problem Set 9]
+# [Problem Set 9](https://github.com/1915002536/cse214/tree/main/Problem%20Set%209)
+Linked List Insert (Push) Operations [Single way (Singly) Linked List]
++ Insert Front
++ Insert Back
++ Insert At
++ Insert Before
++ Insert After
