@@ -74,4 +74,27 @@
         printf("\n");
     }
 
+# Problem 5
+## Function 
+            void print_list(Node *temp)
+    {
+        if(temp==NULL)
+        {
+            printf("Empty List\n");
+            return;
+        }
+
+        else
+        {
+            printf("%d ",temp->value);
+            if(temp->next==NULL)
+            {
+                return;
+            }
+            print_list(temp->next);
+        }
+        printf("\n");
+    }
+
+
 
