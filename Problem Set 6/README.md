@@ -96,5 +96,27 @@
         printf("\n");
     }
 
+# Problem 6
+## Function
+        void print_list_reverse(Node *temp)
+
+    {
+        if(temp==NULL)
+        {
+            printf("Empty List\n");
+            return;
+        }
+        else
+        {
+            if(temp==NULL)
+            {
+                return;
+            }
+            print_list_reverse(temp->next);
+            printf("%d ",temp->value);
+        }
+    }
+
+
 
 
