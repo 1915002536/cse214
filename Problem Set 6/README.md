@@ -26,5 +26,19 @@
     printf("%p \t %d \t %p\n", &a, a.value, a.next);
     printf("\n%p \t %d \t %p\n", &b, b.value, b.next);
     printf("\n%p \t %d \t %p\n", &c, c.value, c.next);
-     
+    
+    
+ # Problem 2
+ ## Creating Node
+    typedef struct node
+    {
+       int value;
+       struct node *next;
+    } Node;
+ 
+ ## Function to print single node of the Linked List 
+        void print_node(Node *temp)
+    {
+        printf("%p \t %d \t %p\n", temp, temp->value, temp->next);
+    }
 
