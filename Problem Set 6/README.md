@@ -42,3 +42,14 @@
         printf("%p \t %d \t %p\n", temp, temp->value, temp->next);
     }
 
+# Problem 3
+## Function to display (only value for each node) the complete Linked List
+        void print_list(Node *temp)
+    {
+        while(temp!=NULL)
+        {
+            printf("%d ",temp->value);
+            temp = temp->next;
+        }
+    }
+
