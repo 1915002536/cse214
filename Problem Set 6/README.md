@@ -1,4 +1,4 @@
-# Problem 1(https://github.com/1915002536/cse214/blob/main/Problem%20Set%206/Problem%201.c)
+# Problem 1
 ##  A linked list node
     struct node
     {
