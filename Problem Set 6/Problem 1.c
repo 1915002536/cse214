@@ -1,6 +1,6 @@
 /* Define a Structure for Linked List Node, Declare three variable,Assign value and
 next address in those variable. Print the variable address, value and next variable
-address.(Don’t use any Function, ‘typedef’ keyword and Dynamic Memory Allocation (DMA)) */
+address.(Donâ€™t use any Function, â€˜typedefâ€™ keyword and Dynamic Memory Allocation (DMA)) */
 
 
 #include<stdio.h>
@@ -16,15 +16,15 @@ int main()
 
     head = &a;
 
-    a.value = 10;
+    a.value = 5;
     a.next = &b;
     printf("%p \t %d \t %p\n", &a, a.value, a.next);
 
-    b.value = 20;
+    b.value = 10;
     b.next = &c;
     printf("\n%p \t %d \t %p\n", &b, b.value, b.next);
 
-    c.value = 30;
+    c.value = 15;
     c.next = NULL;
     printf("\n%p \t %d \t %p\n", &c, c.value, c.next);
 
